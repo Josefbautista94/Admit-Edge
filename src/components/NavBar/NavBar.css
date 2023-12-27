@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 24, 39);
+    color: white;
+    padding: 10px 20px;
+    position: relative; /* Needed for absolute positioning of sub-navbar */
+
+  }
+  
+  .nav-logo a {
+    text-decoration: none;
+    color: #ffffff; 
+    display: inline-block;
+  }
+  
+  .nav-logo a span {
+    display: block;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; /* Takes up available space */
+    justify-content: center; /* Centers the links */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+    transition: color 0.3s ease, border-bottom-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f0c040;
+    border-bottom-color: #f0c040;
+  }
+  
+
+.nav-links li {
+    padding: 0 15px; /* Adjust spacing between links */
+      position: relative; /* Needed to position the sub-navbar correctly */
+  padding: 0 15px;
+  }
+  .nav-login a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .button {
+    background-color: #f0c040;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e0b030;
+  }
+  
+  .navbar-logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .nav-logo, .nav-links, .nav-login {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* This will center the items in their respective containers */
+  }
+  
+  .sub-navbar {
+    display: flex; /* Make sub-navbar a flex container */
+    justify-content: center; /* Center the items horizontally */
+    position: absolute;
+    left: 0;
+    right: 0; /* Span the full width of the navbar */
+    top: 100%; /* Position it right below the navbar */
+    background-color: #f0f0f0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    display: none; /* Hide by default */
+  }
+  
+  .nav-links li:hover .sub-navbar {
+    display: flex; /* Show on hover */
+  }
+
+  .sub-navbar a {
+    display: inline-block; /* Display links inline */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px; /* Spacing between links */
+  }
+  
+  
+  .sub-navbar a:hover {
+    background-color: #ddd;
+  }
