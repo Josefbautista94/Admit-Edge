@@ -12,7 +12,7 @@ body {
     color: white;
     padding: 10px 20px;
     position: relative; /* Needed for absolute positioning of sub-navbar */
-
+    
   }
   
   .nav-logo a {
@@ -94,31 +94,49 @@ body {
   }
   
   .sub-navbar {
-    display: flex; /* Make sub-navbar a flex container */
-    justify-content: center; /* Center the items horizontally */
-    position: absolute;
-    left: 0;
-    right: 0; /* Span the full width of the navbar */
-    top: 100%; /* Position it right below the navbar */
-    background-color: #f0f0f0;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
     display: none; /* Hide by default */
+    position: absolute;
+    left: 50%; /* Center the sub-navbar */
+    top: calc(100% + 37px); /* Place it right below the navbar, plus 10 pixels down */
+    transform: translateX(-50%); /* Align the center of sub-navbar to the center of navbar */
+    background-color: rgb(213, 126, 72); /* Orange background color */
+    width: 100vw; /* Full width of the viewport */
+    box-shadow: 0 2px 5px rgba(0,0,0,.2); /* Optional: Adds a shadow for depth */
+    z-index: 1;
   }
+  
+  
   
   .nav-links li:hover .sub-navbar {
     display: flex; /* Show on hover */
+    justify-content: center; /* Center the items */
   }
-
   .sub-navbar a {
     display: inline-block; /* Display links inline */
     padding: 10px 20px;
     text-decoration: none;
     color: black;
-    margin: 0 10px; /* Spacing between links */
+    margin: 0; /* Remove margin to align with the design */
+    flex: 1; /* Distribute space evenly among the links */
+    text-align: center; /* Center the text within each link */
   }
   
   
   .sub-navbar a:hover {
     background-color: #ddd;
+  }
+
+  .nav-links li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 37px; /* The same height as the gap */
+    z-index: 0; /* Ensures it doesn't cover other clickable items */
+  }
+  
+  .nav-links li:hover::after,
+  .nav-links li:hover .sub-navbar {
+    display: block; /* Show the sub-navbar */
   }
