@@ -16,18 +16,19 @@ const NavBar = () => {
       </div>
       <ul className="nav-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a>
+        <li>
+          <a href="#">Services</a>
+          {/* Sub-navbar is now a sibling to the link, not a child */}
           <div className="sub-navbar">
-            {/* Content of your smaller navbar */}
             <a href="#">Sub Link 1</a>
             <a href="#">Sub Link 2</a>
             {/* ... more links ... */}
-          </div></li>
+          </div>
+        </li>
         <li><a href="#">College Acceptances</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-
     </nav>
   );
 };
