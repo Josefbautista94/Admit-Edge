@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainPage.css'; // Ensure this path is correct
+import './MainPage.css';
 
 const MainPage = () => {
   return (
