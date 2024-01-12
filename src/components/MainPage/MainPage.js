@@ -7,10 +7,8 @@ const MainPage = () => {
       <header className="titleHeader">
         <h1 className="title">Admit Edge</h1>
         <h2 className="prestige-admissions-consulting">
-          Admit Edge Consulting stands at the forefront of university admissions
-          expertise. We are dedicated to nurturing students' academic growth and
-          crafting strategic pathways for their successful entry into
-          prestigious colleges.
+        Admit Edge Consulting is a premier college admissions company.
+Our mission is to help students' academic development and college admission planning.
         </h2>
       </header>
       <div class="review-container">
