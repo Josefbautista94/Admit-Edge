@@ -10,8 +10,8 @@ const NavBar = () => {
       </a>
       <div className="nav-logo">
         <a href="#">
-          <span>Admit</span>
-          <span>Edge</span>
+          <span className = "ae">Admit</span>
+          <span className = "ae">Edge</span>
         </a>
       </div>
       <ul className="nav-links">

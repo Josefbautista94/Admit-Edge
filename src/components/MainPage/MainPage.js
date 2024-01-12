@@ -4,8 +4,8 @@ import './MainPage.css';
 const MainPage = () => {
   return (
     <div className="mainContainer">
-    
-    </div>
+ <h1 className='title'>Admit Edge</h1>
+      </div>
   );
 };
 

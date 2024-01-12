@@ -10,3 +10,21 @@
   justify-content: center;
   min-height: 100vh;
 }
+
+.title{
+        color: #ffffff; /* Royal Blue: RGB(27, 65, 162) */
+        text-align: center; /* Center the title horizontally */
+        font-family: 'Georgia', 'Times New Roman', serif; /* A font that carries an academic feel */
+        font-weight: bold; /* Make the font bold */
+        margin-bottom: 765px; /* Or adjust based on your layout to position it from the top */
+        padding-top: 20px; /* Adds padding at the top inside the element */
+        font-size: 5rem; /* Large font size for the title */
+        text-transform: uppercase; /* Optional: Uppercase letters for a more formal appearance */
+        letter-spacing: 2px; /* Adds spacing between the characters for better readability */
+          text-shadow: 2px 2px 4px rgba(21, 40, 103, 0.5); /* Deep Blue with some transparency for shadow */
+
+      }
+      
+      /* If you're using a light background and want a subtle text shadow for depth: */
+  
+
