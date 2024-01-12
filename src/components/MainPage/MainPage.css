@@ -1,6 +1,6 @@
 .mainContainer {
   align-items: center;
-  background: url("../Images/HomepageBackground.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/HomepageBackground.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,23 +8,61 @@
   flex-direction: column;
   font-size: calc(10px + 1.5vmin);
   justify-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
+  
 }
 
-.title{
-        color: #ffffff; /* Royal Blue: RGB(27, 65, 162) */
-        text-align: center; /* Center the title horizontally */
-        font-family: 'Georgia', 'Times New Roman', serif; /* A font that carries an academic feel */
-        font-weight: bold; /* Make the font bold */
-        margin-bottom: 765px; /* Or adjust based on your layout to position it from the top */
-        padding-top: 20px; /* Adds padding at the top inside the element */
-        font-size: 5rem; /* Large font size for the title */
-        text-transform: uppercase; /* Optional: Uppercase letters for a more formal appearance */
-        letter-spacing: 2px; /* Adds spacing between the characters for better readability */
-          text-shadow: 2px 2px 4px rgba(21, 40, 103, 0.5); /* Deep Blue with some transparency for shadow */
+.title {
+  color: rgb(255, 255, 255);
+  text-align: center; /* Center the title horizontally */
+  font-family: "Georgia", "Times New Roman", serif; /* A font that carries an academic feel */
+  padding-top: 10px; /* Adds padding at the top inside the element */
+  font-size: 3.5rem; /* Large font size for the title */
+  text-transform: uppercase; /* Optional: Uppercase letters for a more formal appearance */
+  letter-spacing: 2px; /* Adds spacing between the characters for better readability */
+  text-shadow: 2px 2px 4px rgba(21, 40, 103, 0.5); /* Deep Blue with some transparency for shadow */
+}
 
-      }
-      
-      /* If you're using a light background and want a subtle text shadow for depth: */
+.prestige-admissions-consulting {
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: #ffffff;
+  margin-top: -30px; /* Pulls the element up by 20px; adjust as necessary */
+  width: 60%; /* Adjust the width as needed */
+  margin-left: auto; /* Center the element horizontally */
+  margin-right: auto; /* Center the element horizontally */
+  font-family: "Georgia", "Times New Roman", serif; /* A font that carries an academic feel */
+
+}
+
+/* If you're using a light background and want a subtle text shadow for depth: */
+
+.titleHeader {
+    position: absolute;
+    top: 20vh; /* Or any other value to push it down from the top */
+    width: 100%; /* To ensure it stretches across the container */
+}
+
+.review-container {
+    width: 100%; /* Full width of the page */
+    height: 250px;
+    position: absolute; /* Position it at the bottom */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    background-color:rgb(47, 95, 118); /* Light background color for the review section */
+    padding: 20px; /* Add some padding for spacing */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Optional: Adds a shadow for depth */
+    text-align: center; /* Center the text inside the container */
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
   
-
+  }
+  
+  .reviews{
+    width: 50%; /* Half the width of its parent */
+    height: 100%; /* Half the height of its parent */
+    background-color: rgb(3, 24, 39);
+    padding: 20px; /* Add some padding for spacing */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds a shadow for depth */
+    text-align: center; /* Center the text inside the box */   
+  }
