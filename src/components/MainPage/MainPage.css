@@ -48,17 +48,18 @@
     position: absolute; /* Position it at the bottom */
     bottom: 0; /* Align to the bottom */
     left: 0; /* Align to the left */
-    background-color: rgba(47, 95, 118, 0.92); 
+    /* background-color: rgba(47, 95, 118, 0.92);  */
     padding: 20px; /* Add some padding for spacing */
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Optional: Adds a shadow for depth */
     text-align: center; /* Center the text inside the container */
     display: flex; /* Use Flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/JPEG image-490A-BD4D-D9-0.jpeg");
   }
   
   .reviews{
-    width: 50%; /* Half the width of its parent */
+    width: 60%; /* Half the width of its parent */
     height: 100%; /* Half the height of its parent */
     background-color: rgb(3, 24, 39);
     padding: 20px; /* Add some padding for spacing */
