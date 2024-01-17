@@ -11,9 +11,11 @@ const MainPage = () => {
 Our mission is to help students' academic development and college admission planning.
         </h2>
       </header>
+      <a href="#" class="clear-button">Click Me</a>
+
       <div class="review-container">
         <div className = "reviews"> </div>
-        </div>{" "}
+        </div>
     </div>
   );
 };
