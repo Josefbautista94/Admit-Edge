@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBar.css"; // Ensure this path is correct
 import logo from "../Images/logo.jpeg";
+import { Link } from 'react-router-dom';
+
 
 const NavBar = () => {
   return (
@@ -16,16 +18,17 @@ const NavBar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <a href="#">Home</a>
+        <Link to="/Home">Home</Link>
           <div className="sub-navbar">
-            <a href="#">Sub Link 1</a>
-            <a href="#">Sub Link 2</a>
+           
+            <a href="#">Reviews</a>
             {/* ... more links ... */}
           </div>
         </li>
 
         <li>
-          <a href="#">Services</a>
+        <Link to="/Services">Services</Link>
+
           {/* Sub-navbar is now a sibling to the link, not a child */}
           <div className="sub-navbar">
             <a href="#">Academic Advising</a>
