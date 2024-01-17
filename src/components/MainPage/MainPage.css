@@ -1,15 +1,14 @@
 .mainContainer {
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../Images/HomepageBackground.png");
-  background-position: center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../Images/background1.png");
+  background-position: center center; /* Shifts the background image to 10% from the left edge of the container */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 1.5vmin);
   justify-content: center;
-  min-height: 89vh;
-  
+  min-height: 90vh;
 }
 
 .title {
@@ -38,14 +37,15 @@
 
 .titleHeader {
     position: absolute;
-    top: 20vh; /* Or any other value to push it down from the top */
+    top: 30vh; /* Or any other value to push it down from the top */
     width: 100%; /* To ensure it stretches across the container */
+    
 }
 
 .review-container {
     width: 100%; /* Full width of the page */
-    height: 300px;
-    position: absolute; /* Position it at the bottom */
+    height: 350px;
+    position: relative; /* or you could use 'absolute' if you want it to be at the bottom */
     bottom: 0; /* Align to the bottom */
     left: 0; /* Align to the left */
     background-color: rgba(47, 95, 118); 
@@ -78,10 +78,22 @@
     transition: background-color 0.3s, color 0.3s;
     border-radius: 23px; /* Rounded corners */
     font-family: "Georgia", "Times New Roman", serif; /* A font that carries an academic feel */
-    margin-top: -0px; 
+    margin-top: 100px; 
   }
   
   .clear-button:hover {
     background-color: #ffffff; /* White background on hover */
     color: #2f5f76; /* Darker text color on hover */
   }
+
+  .reviewTitle {
+    font-family: "Georgia", "Times New Roman", serif; /* A font that carries an academic feel */
+    color: #ffffff; /* This is a dark grey, adjust as needed */
+    text-align: center; /* Centers the title */
+    border-bottom: 2px solid #ffffff; /* A colored line under the title */
+    display: inline-block; /* Ensures the border-bottom is not full width */
+    margin-top: 5px; /* Adds space above the title */
+    font-size: 2.2em; /* Adjust the size of the title */
+    letter-spacing: 2px; /* Adds spacing between letters */
+}
+
