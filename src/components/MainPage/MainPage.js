@@ -14,7 +14,10 @@ Our mission is to help students' academic development and college admission plan
       <a href="#" class="clear-button">Click Me</a>
 
       <div class="review-container">
-        <div className = "reviews"> </div>
+        <div className = "reviews">
+          <h2 className = "reviewTitle ">Reviews</h2>
+          
+           </div>
         </div>
     </div>
   );

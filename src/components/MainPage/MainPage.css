@@ -44,7 +44,7 @@
 
 .review-container {
     width: 100%; /* Full width of the page */
-    height: 300px;
+    height: 350px;
     position: absolute; /* Position it at the bottom */
     bottom: 0; /* Align to the bottom */
     left: 0; /* Align to the left */
@@ -85,3 +85,15 @@
     background-color: #ffffff; /* White background on hover */
     color: #2f5f76; /* Darker text color on hover */
   }
+
+  .reviewTitle {
+    font-family: "Georgia", "Times New Roman", serif; /* A font that carries an academic feel */
+    color: #ffffff; /* This is a dark grey, adjust as needed */
+    text-align: center; /* Centers the title */
+    border-bottom: 2px solid #ffffff; /* A colored line under the title */
+    display: inline-block; /* Ensures the border-bottom is not full width */
+    margin-top: 5px; /* Adds space above the title */
+    font-size: 1.5em; /* Adjust the size of the title */
+    letter-spacing: 2px; /* Adds spacing between letters */
+}
+
