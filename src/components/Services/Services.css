@@ -1,0 +1,21 @@
+.services-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 30%; /* Adjust based on preference */
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.service-item h2 {
+    color: #0055a5; /* Example color */
+}
