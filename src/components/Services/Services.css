@@ -22,8 +22,21 @@
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
+    background-color: aliceblue;
 }
 
 .service-item h2 {
     color: #0055a5; /* Example color */
 }
+
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center; /* Center the title horizontally */
+    font-family: "Georgia", "Times New Roman", serif; /* A font that carries an academic feel */
+    padding-top: 10px; /* Adds padding at the top inside the element */
+    font-size: 3.5rem; /* Large font size for the title */
+    text-transform: uppercase; /* Optional: Uppercase letters for a more formal appearance */
+    letter-spacing: 2px; /* Adds spacing between the characters for better readability */
+    text-shadow: 2px 2px 4px rgba(21, 40, 103, 0.5); /* Deep Blue with some transparency for shadow */
+  }
+  
