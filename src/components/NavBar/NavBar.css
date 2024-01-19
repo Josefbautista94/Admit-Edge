@@ -19,6 +19,7 @@ body {
   
   .ae{
     font-size: 1.4rem; /* Large font size for the title */
+    text-transform: uppercase; /* Optional: Uppercase letters for a more formal appearance */
 
   }
   .nav-logo a {
