@@ -12,19 +12,27 @@
 }
 
 .services-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; /* Adjust the gap between items */
 }
 
 .service-item {
-    width: 30%; /* Adjust based on preference */
+    display: flex; /* Enable Flexbox */
+    align-items: flex-start; /* Align items to the start of the cross axis */
+    justify-content: space-between; /* Space out content and image */
+    width: 90%;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
     background-color: aliceblue;
 }
 
+.service-item img {
+    max-width: 40%; /* Adjust as necessary */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 15px; /* Add some space between the text and the image */
+}
 .service-item h2 {
     color: #0055a5; /* Example color */
 }
