@@ -18,15 +18,16 @@
 }
 
 .service-item {
-    display: flex; /* Enable Flexbox */
-    align-items: flex-start; /* Align items to the start of the cross axis */
-    justify-content: space-between; /* Space out content and image */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     width: 90%;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
     background-color: aliceblue;
 }
+
 
 .service-item img {
     max-width: 40%; /* Adjust as necessary */
@@ -48,3 +49,12 @@
     text-shadow: 2px 2px 4px rgba(21, 40, 103, 0.5); /* Deep Blue with some transparency for shadow */
   }
   
+  .service-text {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    text-align: center;
+    line-height: 1.5;
+    flex-grow: 1; /* Allows the div to expand and occupy available space */
+    padding: 15px; /* Optional, for internal spacing */
+    
+}
