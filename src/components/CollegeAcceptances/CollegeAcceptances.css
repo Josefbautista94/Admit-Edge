@@ -1,20 +1,26 @@
-.CAdiv {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.CollegeAcceptancesDiv {
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../Images/background3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* This makes the background fixed during scrolling */
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 1.5vmin);
+    justify-content: center;
+    min-height: 90vh;
     font-family: 'Arial', sans-serif;
-}
+  }
 
-.CAdiv h1 {
+.CollegeAcceptancesDiv h1 {
     color: #333;
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 0.75em;
 }
 
-.CAdiv h2 {
+.CollegeAcceptancesDiv h2 {
     color: #555;
     text-align: center;
     font-size: 1.8em;
