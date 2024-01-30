@@ -1,15 +1,16 @@
 .services-section {
     align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../Images/background2.png");
-  background-position: center center; /* Shifts the background image to 10% from the left edge of the container */
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 1.5vmin);
-  justify-content: center;
-  min-height: 90vh;
-}
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../Images/background2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* This makes the background fixed during scrolling */
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 1.5vmin);
+    justify-content: center;
+    min-height: 90vh;
+  }
 
 .services-list {
     display: grid;
