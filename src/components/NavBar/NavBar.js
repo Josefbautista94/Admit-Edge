@@ -39,7 +39,7 @@ const NavBar = () => {
           </div>
         </li>
         <li>
-          <a href="#">College Acceptances</a>
+        <Link to="/College-Acceptances">College Acceptances</Link>
           <div className="sub-navbar">
             <a href="#">Top Ranked Colleges</a>
             <a href="#">Undergraduate Business Schools</a>
