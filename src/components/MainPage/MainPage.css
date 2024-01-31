@@ -1,6 +1,6 @@
 .mainContainer {
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../Images/background1.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("../Images/background1.png");
   background-position: center center; /* Centers the background image */
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,6 @@
 .prestige-admissions-consulting {
   font-size: 1.6rem; /* Adjust size as needed */
   color: #ffffff;
-  margin-top: -30px; /* Pulls the element up by 20px; adjust as necessary */
   width: 60%; /* Adjust the width as needed */
   margin-left: auto; /* Center the element horizontally */
   margin-right: auto; /* Center the element horizontally */
@@ -36,9 +35,7 @@
 /* If you're using a light background and want a subtle text shadow for depth: */
 
 .titleHeader {
-    position: absolute;
     top: 30vh; /* Or any other value to push it down from the top */
-    width: 100%; /* To ensure it stretches across the container */
     
 }
 
