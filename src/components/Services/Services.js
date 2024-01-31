@@ -18,7 +18,10 @@ const Services = () => {
           <p> • Strategically select academic schedule</p>
           <p> • Organize extracurricular activities and community service</p>
           <p> • Provide guidance on summer activities.</p>
+          <button className="request-info-btn">Request More Information</button>
+
           </div>
+
         </div>
         <div className="service-item">
         <img src={image2} className = "students1" alt="students studying" />
@@ -37,6 +40,8 @@ const Services = () => {
           <p> • Resume coaching</p>
           <p> • Financial aid application advice</p>
           <p> • Scholarship application advice</p>
+          <button className="request-info-btn">Request More Information</button>
+
           </div>
 
         </div>
@@ -64,6 +69,8 @@ const Services = () => {
           <p> • Guidance on letters of recommendation</p>
           <p> • Preparation for transfer admission interview</p>
           <p> • Financial aid application advice</p>
+          <button className="request-info-btn">Request More Information</button>
+
           </div>
 
         </div>
