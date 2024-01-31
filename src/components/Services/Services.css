@@ -1,6 +1,6 @@
 .services-section {
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../Images/background2.png");
+    background: linear-gradient(rgba(217, 143, 80, 0.7), rgba(27, 65, 162, 0.7)), url("../Images/background2.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,12 +10,12 @@
     font-size: calc(10px + 1.5vmin);
     justify-content: center;
     min-height: 90vh;
-  }
+}
 
 .services-list {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px; /* Adjust the gap between items */
+    gap: 20px; /* Increased gap for better spacing */
 }
 
 .service-item {
@@ -23,39 +23,47 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 90%;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(21, 40, 103, 0.2); /* Deep Blue shadow for depth */
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Clean White with slight transparency */
+    border-left: 5px solid royalblue; /* Royal Blue border for emphasis */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
 }
 
+.service-item:hover {
+    transform: scale(1.03); /* Slightly enlarges the container on hover */
+    box-shadow: 0 6px 12px rgba(21, 40, 103, 0.3); /* Enhanced shadow on hover */
+}
 
 .service-item img {
-    max-width: 40%; /* Adjust as necessary */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 15px; /* Add some space between the text and the image */
+    max-width: 40%;
+    height: auto;
+    margin-right: 15px; /* Adjusted margin */
 }
+
 .service-item h2 {
-    color: #0055a5; /* Example color */
+    color: deepskyblue; /* Slightly lighter shade for better visibility */
 }
 
 .title {
     color: rgb(255, 255, 255);
-    text-align: center; /* Center the title horizontally */
-    font-family: "Georgia", "Times New Roman", serif; /* A font that carries an academic feel */
-    padding-top: 10px; /* Adds padding at the top inside the element */
-    font-size: 3.5rem; /* Large font size for the title */
-    text-transform: uppercase; /* Optional: Uppercase letters for a more formal appearance */
-    letter-spacing: 2px; /* Adds spacing between the characters for better readability */
-    text-shadow: 2px 2px 4px rgba(21, 40, 103, 0.5); /* Deep Blue with some transparency for shadow */
-  }
-  
-  .service-text {
-    font-family: Arial, sans-serif;
-    color: #333333;
     text-align: center;
-    line-height: 1.5;
-    flex-grow: 1; /* Allows the div to expand and occupy available space */
-    padding: 15px; /* Optional, for internal spacing */
-    
+    font-family: "Georgia", "Times New Roman", serif;
+    padding-top: 20px; /* Increased padding */
+    font-size: 4rem; /* Slightly larger font */
+    text-transform: uppercase;
+    letter-spacing: 3px; /* Increased letter spacing */
+    text-shadow: 3px 3px 6px rgba(21, 40, 103, 0.6); /* More pronounced shadow */
 }
+  
+.service-text {
+    font-family: Arial, sans-serif;
+    color: #333333; /* Kept for readability */
+    text-align: left; /* Align text to the left for better readability */
+    line-height: 1.6; /* Slightly increased line height */
+    flex-grow: 1;
+    padding: 20px; /* Increased padding */
+}
+
