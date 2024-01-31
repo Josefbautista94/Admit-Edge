@@ -1,6 +1,6 @@
 .services-section {
     align-items: center;
-    background: linear-gradient(rgba(217, 143, 80, 0.7), rgba(27, 65, 162, 0.7)), url("../Images/background2.png");
+    background: linear-gradient(rgba(217, 143, 80, 0.7), rgba(27, 65, 162, 0.7)), url("../Images/background1.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,10 +26,11 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(21, 40, 103, 0.2); /* Deep Blue shadow for depth */
     margin: 20px auto;
-    background-color: rgba(255, 255, 255, 0.8); /* Clean White with slight transparency */
-    border-left: 5px solid royalblue; /* Royal Blue border for emphasis */
+    background-color: rgba(3, 24, 39, 0.8); /* Clean White with slight transparency */
+    border-left: 5px solid rgb(213, 126, 72); /* Royal Blue border for emphasis */
     border-radius: 15px; /* Rounded corners */
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    
 }
 
 .service-item:hover {
@@ -60,10 +61,38 @@
   
 .service-text {
     font-family: Arial, sans-serif;
-    color: #333333; /* Kept for readability */
+    color: #fffafa; /* Kept for readability */
     text-align: left; /* Align text to the left for better readability */
     line-height: 1.6; /* Slightly increased line height */
     flex-grow: 1;
     padding: 20px; /* Increased padding */
 }
 
+
+.request-info-btn {
+    background-color: rgba(217, 143, 80, 0.9); /* Creamy Orange with some opacity */
+    color: white; /* White text */
+    border: 2px solid rgba(27, 65, 162, 0.8); /* Royal Blue border */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effect */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.request-info-btn:hover {
+    background-color: rgba(217, 143, 80); /* Solid Creamy Orange on hover */
+    border-color: rgba(21, 40, 103); /* Deep Blue border on hover */
+}
+  
+.ser1, .ser2, .ser3 {
+    width: 100%; /* Full width of the parent container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    object-fit: cover; /* Ensure the image covers the area nicely */
+    margin-bottom: 15px; /* Space between image and text */
+}
