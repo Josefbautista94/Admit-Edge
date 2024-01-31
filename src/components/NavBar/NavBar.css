@@ -8,37 +8,37 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(3, 24, 39);
+    background-color: rgb(3, 24, 39); /* Darker blue as preferred */
     color: white;
     padding: 10px 20px;
-    position: relative; /* Needed for absolute positioning of sub-navbar */
-    font-weight: bold; /* Make the text bold */
-    font-family: 'Georgia', 'Times New Roman', serif; /* A font that carries an academic feel */
+    position: relative;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+  
+.ae {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
 
-  }
-  
-  .ae{
-    font-size: 1.4rem; /* Large font size for the title */
-    text-transform: uppercase; /* Optional: Uppercase letters for a more formal appearance */
+.nav-logo a {
+  text-decoration: none;
+  color: #ffffff; 
+}
 
-  }
-  .nav-logo a {
-    text-decoration: none;
-    color: #ffffff; 
-    display: inline-block;
-  }
   
-  .nav-logo a span {
-    display: block;
-    text-align: center;
-    font-weight: 900;
-  }
+.nav-logo a span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
   
-  .nav-links {
-    list-style: none;
-    display: flex;
-    flex-grow: 1;
-  }
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
   
   .nav-links {
     list-style: none;
@@ -50,12 +50,13 @@ body {
   
   .nav-links a {
     text-decoration: none;
-    color: white;
-    margin: 0 10px;
+    color: #fff;
+    margin: 0 15px;
     padding-bottom: 5px;
     border-bottom: 3px solid transparent;
     transition: color 0.3s ease, border-bottom-color 0.3s;
-  }
+}
+
   
   .nav-links a:hover {
     color: #f0c040;
@@ -63,11 +64,11 @@ body {
   }
   
 
-.nav-links li {
-    padding: 0 15px; /* Adjust spacing between links */
-      position: relative; /* Needed to position the sub-navbar correctly */
-  padding: 0 15px;
-  }
+  .nav-links li {
+    position: relative;
+    padding: 0 15px;
+}
+
   .nav-login a {
     text-decoration: none;
     color: white;
@@ -85,15 +86,12 @@ body {
   .button:hover {
     background-color: #e0b030;
   }
-  
   .navbar-logo {
     height: 70px;
     width: 70px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 10px;
-    
-  }
+}
 
   .nav-logo, .nav-links, .nav-login {
     display: flex;
@@ -126,10 +124,9 @@ body {
   
   
   .nav-links li:hover .sub-navbar {
-    display: flex; /* Show on hover */
-    justify-content: center; /* Center the items */
-  }
-  
+    display: block;
+}
+
   
   .sub-navbar a:hover {
     background-color: rgb(3, 24, 39);
@@ -149,3 +146,9 @@ body {
   .nav-links li:hover .sub-navbar {
     display: block; /* Show the sub-navbar */
   }
+  @media (max-width: 768px) {
+    .nav-links,
+    .sub-navbar {
+        /* Adjust for mobile responsiveness */
+    }
+}

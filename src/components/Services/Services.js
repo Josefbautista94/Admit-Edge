@@ -1,6 +1,8 @@
 import React from "react";
 import "./Services.css"; // Ensure this path is correct
-import image1 from '../Images/Students1.jpeg'; // Adjust path as necessary
+import image1 from '../Images/Services1.png'; // Adjust path as necessary
+import image2 from '../Images/Services4.png'; // Adjust path as necessary
+import image3 from '../Images/Services5.png'; // Adjust path as necessary
 
 const Services = () => {
   return (
@@ -19,7 +21,7 @@ const Services = () => {
           </div>
         </div>
         <div className="service-item">
-        <img src={image1} className = "students1" alt="students studying" />
+        <img src={image2} className = "students1" alt="students studying" />
 
         <div className="service-text">
 
@@ -39,7 +41,7 @@ const Services = () => {
 
         </div>
         <div className="service-item">
-        <img src={image1} className = "students1" alt="students studying" />
+        <img src={image3} className = "students1" alt="students studying" />
 
         <div className="service-text">
 

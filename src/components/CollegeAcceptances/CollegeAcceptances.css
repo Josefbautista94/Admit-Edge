@@ -1,64 +1,66 @@
 .CollegeAcceptancesDiv {
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("../Images/background3.png");
+    background: linear-gradient(rgba(217, 143, 80, 0.6), rgba(27, 65, 162, 0.6)), url("../Images/background3.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; /* This makes the background fixed during scrolling */
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     font-size: calc(10px + 1.5vmin);
     justify-content: center;
     min-height: 90vh;
-    font-family: 'Arial', sans-serif;
-  }
+    font-family: 'Open Sans', sans-serif;
+    padding: 2em 0; /* Added padding */
+}
 
-.CollegeAcceptancesDiv h1 {
+.CollegeAcceptancesDiv h1, .CollegeAcceptancesDiv h2 {
     color: #ffffff;
     text-align: center;
-    font-size: 2.5em;
     margin-bottom: 0.75em;
+    font-family: 'Lato', serif; /* Updated font family */
+}
+
+.CollegeAcceptancesDiv h1 {
+    font-size: 3em; /* Increased size */
+    margin-bottom: 1em; /* Adjusted margin */
 }
 
 .CollegeAcceptancesDiv h2 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 1.8em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    font-size: 2em; /* Increased size */
+    margin-top: 0.5em; /* Adjusted margin */
 }
 
 .TRCul, .UBSul, .CLul {
     list-style-type: none;
     padding: 0;
-    margin-bottom: 1.5em;
+    margin: 0 auto;
+    max-width: 800px; /* Constrain the width for better readability */
 }
 
 .TRCul li, .UBSul li, .CLul li {
-    background-color: rgba(47, 95, 118);/* Slightly change color on hover */
-
+    background-color: #1F6376; /* Updated background color */
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 6px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center; /* Center align the text */
-    color: white; /* Change text color for better readability */
-    font-weight: bold; /* Make the text bold */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
 
 .TRCul li:hover, .UBSul li:hover, .CLul li:hover {
-    transform: scale(1.05); /* Slightly increase the size on hover */
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
-    background-color: rgb(213, 126, 72);
+    transform: translateY(-5px); /* Subtle hover effect */
+    background-color: #D57E48; /* Updated hover background color */
 }
 
 .TRCul li a, .UBSul li a, .CLul li a {
-    color: #FFFFFF; /* Change the color as needed */
-    text-decoration: none; /* Optional: removes the underline */
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .TRCul li a:hover, .UBSul li a:hover, .CLul li a:hover {
-    color: #FFFFE0; /* Change the hover color as needed */
+    color: #FFFFE0;
+    text-decoration: underline; /* Added underline on hover for clarity */
 }
