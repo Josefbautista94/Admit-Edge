@@ -55,72 +55,72 @@ const CollegeAcceptances = () => {
 
       <h2>Complete List</h2>
       <ul className = "CLul">
-      <li><a href="https://www.american.edu/">American University</a></li>
-      <li><a href="https://www.amherst.edu/">Amherst</a></li>
-      <li><a href="https://www.bard.edu/">Bard College</a></li>
-      <li><a href="https://www.barnard.edu/">Barnard College</a></li>
-      <li><a href="https://www.bates.edu/">Bates</a></li>
-        <li><a href="https://www.bc.edu/">Boston College</a></li>
-        <li><a href="https://www.bu.edu/homepage-alt/">Boston University</a></li>
-        <li><a href="https://www.brandeis.edu/">Brandeis</a></li>
-        <li><a href="https://www.bucknell.edu/">Bucknel</a>l</li>
-        <li><a href="https://www.clemson.edu/index.html">Clemson University</a></li>
-        <li><a href="https://charleston.edu/">College of Charleston</a></li>
-        <li><a href="https://www.colby.edu/">Colby University</a></li>
-        <li><a href="https://www.colgate.edu/">Colgate</a></li>
-        <li><a href="https://drexel.edu/">Drexel University</a></li>
-        <li><a href="https://www.davidson.edu/">Davidson</a></li>
+      <li><a href="https://www.american.edu/"target="_blank">American University</a></li>
+      <li><a href="https://www.amherst.edu/"target="_blank">Amherst</a></li>
+      <li><a href="https://www.bard.edu/"target="_blank">Bard College</a></li>
+      <li><a href="https://www.barnard.edu/"target="_blank">Barnard College</a></li>
+      <li><a href="https://www.bates.edu/"target="_blank">Bates</a></li>
+        <li><a href="https://www.bc.edu/"target="_blank">Boston College</a></li>
+        <li><a href="https://www.bu.edu/homepage-alt/"target="_blank">Boston University</a></li>
+        <li><a href="https://www.brandeis.edu/"target="_blank">Brandeis</a></li>
+        <li><a href="https://www.bucknell.edu/"target="_blank">Bucknel</a>l</li>
+        <li><a href="https://www.clemson.edu/index.html"target="_blank">Clemson University</a></li>
+        <li><a href="https://charleston.edu/"target="_blank">College of Charleston</a></li>
+        <li><a href="https://www.colby.edu/"target="_blank">Colby University</a></li>
+        <li><a href="https://www.colgate.edu/"target="_blank">Colgate</a></li>
+        <li><a href="https://drexel.edu/"target="_blank">Drexel University</a></li>
+        <li><a href="https://www.davidson.edu/"target="_blank">Davidson</a></li>
         <li><a href="https://www.duke.edu" target="_blank" rel="noopener noreferrer">Duke University</a></li>
         <li><a href="https://www.elon.edu" target="_blank" rel="noopener noreferrer">Elon University</a></li>
-        <li><a href="https://www.fsu.edu/">Florida State University</a></li>
-        <li><a href="https://www.fordham.edu/">Fordham University</a></li>
-        <li><a href="https://www.fandm.edu/index.html">Franklin and Marshall</a></li>
-        <li><a href="https://www.furman.edu/">Furman</a></li>
-        <li><a href="https://www.gwu.edu/">George Washington University</a></li>
-        <li><a href="https://www.hamilton.edu/">Hamilton</a></li>
-        <li><a href="https://www.haverford.edu/">Haverford</a></li>
-        <li><a href="https://www.iu.edu/index.html">Indiana University</a></li>
+        <li><a href="https://www.fsu.edu/"target="_blank">Florida State University</a></li>
+        <li><a href="https://www.fordham.edu/"target="_blank">Fordham University</a></li>
+        <li><a href="https://www.fandm.edu/index.html"target="_blank">Franklin and Marshall</a></li>
+        <li><a href="https://www.furman.edu/"target="_blank">Furman</a></li>
+        <li><a href="https://www.gwu.edu/"target="_blank">George Washington University</a></li>
+        <li><a href="https://www.hamilton.edu/"target="_blank">Hamilton</a></li>
+        <li><a href="https://www.haverford.edu/"target="_blank">Haverford</a></li>
+        <li><a href="https://www.iu.edu/index.html"target="_blank">Indiana University</a></li>
         <li><a href="https://www.jhu.edu" target="_blank" rel="noopener noreferrer">Johns Hopkins University</a></li>
-        <li><a href="https://www2.lehigh.edu/">Lehigh University</a></li>
-        <li><a href="https://www.lmu.edu/">Loyola Marymount University</a></li>
-        <li><a href="https://www.northeastern.edu/">Northeastern University</a></li>
-        <li><a href="https://www.northwestern.edu/">Northwestern University</a></li>
-        <li><a href="https://www.osu.edu/">Ohio State University</a></li>
-        <li><a href="https://www.psu.edu/">Penn State University</a></li>
-        <li><a href="https://www.pomona.edu/">Pomona University</a></li>
-        <li><a href="https://www.purdue.edu/">Purdue University</a></li>
+        <li><a href="https://www2.lehigh.edu/"target="_blank">Lehigh University</a></li>
+        <li><a href="https://www.lmu.edu/"target="_blank">Loyola Marymount University</a></li>
+        <li><a href="https://www.northeastern.edu/"target="_blank">Northeastern University</a></li>
+        <li><a href="https://www.northwestern.edu/"target="_blank">Northwestern University</a></li>
+        <li><a href="https://www.osu.edu/"target="_blank">Ohio State University</a></li>
+        <li><a href="https://www.psu.edu/"target="_blank">Penn State University</a></li>
+        <li><a href="https://www.pomona.edu/"target="_blank">Pomona University</a></li>
+        <li><a href="https://www.purdue.edu/"target="_blank">Purdue University</a></li>
         <li><a href="https://www.nyu.edu" target="_blank" rel="noopener noreferrer">NYU</a></li>
-        <li><a href="https://www.scu.edu/">Santa Clara University</a></li>
-        <li><a href="https://www.sarahlawrence.edu/">Sarah Lawrence College</a></li>
-        <li><a href="https://www.smu.edu/">Southern Methodist University</a></li>
-        <li><a href="https://www.syracuse.edu/">Syracuse University</a></li>
-        <li><a href="https://www.tcu.edu/">Texas Christian University</a></li>
-        <li><a href="https://www.tamu.edu/index.html">Texas A&M</a></li>
-        <li><a href="https://tulane.edu/">Tulane University</a></li>
-        <li><a href="https://www.usafa.edu/">United States Air Force Academy</a></li>
+        <li><a href="https://www.scu.edu/"target="_blank">Santa Clara University</a></li>
+        <li><a href="https://www.sarahlawrence.edu/"target="_blank">Sarah Lawrence College</a></li>
+        <li><a href="https://www.smu.edu/"target="_blank">Southern Methodist University</a></li>
+        <li><a href="https://www.syracuse.edu/"target="_blank">Syracuse University</a></li>
+        <li><a href="https://www.tcu.edu/"target="_blank">Texas Christian University</a></li>
+        <li><a href="https://www.tamu.edu/index.html"target="_blank">Texas A&M</a></li>
+        <li><a href="https://tulane.edu/"target="_blank">Tulane University</a></li>
+        <li><a href="https://www.usafa.edu/"target="_blank">United States Air Force Academy</a></li>
         <li><a href="https://www.ucla.edu" target="_blank" rel="noopener noreferrer">University of California – Los Angeles (UCLA)</a></li>
-        <li><a href="https://www.ucsb.edu/">University of California – Santa Barbara</a></li>
-        <li><a href="https://www.ucf.edu/">University of Central Florida</a></li>
-        <li><a href="https://www.colorado.edu//">University of Colorado – Boulder</a></li>
-        <li><a href="https://www.udel.edu/">University of Delaware</a></li>
-        <li><a href="https://www.du.edu/">University of Denver</a></li>
-        <li><a href="https://www.ufl.edu/">University of Florida</a></li>
-        <li><a href="https://www.uga.edu/">University of Georgia</a></li>
-        <li><a href="https://illinois.edu/">University of Illinois</a></li>
-        <li><a href="https://umd.edu/">University of Maryland</a></li>
-        <li><a href="https://welcome.miami.edu/">University of Miami</a></li>
-        <li><a href="https://umich.edu/">University of Michigan</a></li>
-        <li><a href="https://www.uoregon.edu/">University of Oregon</a></li>
-        <li><a href="https://www.richmond.edu/">University of Richmond</a></li>
-        <li><a href="https://www.usf.edu/">University of South Florida</a></li>
+        <li><a href="https://www.ucsb.edu/"target="_blank">University of California – Santa Barbara</a></li>
+        <li><a href="https://www.ucf.edu/"target="_blank">University of Central Florida</a></li>
+        <li><a href="https://www.colorado.edu/"target="_blank">University of Colorado – Boulder</a></li>
+        <li><a href="https://www.udel.edu/"target="_blank">University of Delaware</a></li>
+        <li><a href="https://www.du.edu/"target="_blank">University of Denver</a></li>
+        <li><a href="https://www.ufl.edu/"target="_blank">University of Florida</a></li>
+        <li><a href="https://www.uga.edu/"target="_blank">University of Georgia</a></li>
+        <li><a href="https://illinois.edu/"target="_blank">University of Illinois</a></li>
+        <li><a href="https://umd.edu/"target="_blank">University of Maryland</a></li>
+        <li><a href="https://welcome.miami.edu/"target="_blank">University of Miami</a></li>
+        <li><a href="https://umich.edu/"target="_blank">University of Michigan</a></li>
+        <li><a href="https://www.uoregon.edu/"target="_blank">University of Oregon</a></li>
+        <li><a href="https://www.richmond.edu/"target="_blank">University of Richmond</a></li>
+        <li><a href="https://www.usf.edu/"target="_blank">University of South Florida</a></li>
         <li><a href="https://www.usc.edu" target="_blank" rel="noopener noreferrer">University of Southern California (USC)</a></li>
-        <li><a href="https://www.utexas.edu/">University of Texas – Austin</a></li>
-        <li><a href="https://www.washington.edu/">University of Washington</a></li>
-        <li><a href="https://www.wisc.edu/">University of Wisconsin</a></li>
-        <li><a href="https://www1.villanova.edu/university.html">Villanova University</a></li>
-        <li><a href="https://www.wlu.edu/">Washington and Lee</a></li>
-        <li><a href="https://www.wellesley.edu/">Wellesley</a></li>
-        <li><a href="https://www.wm.edu/">William and Mary</a></li>
+        <li><a href="https://www.utexas.edu/"target="_blank">University of Texas – Austin</a></li>
+        <li><a href="https://www.washington.edu/"target="_blank">University of Washington</a></li>
+        <li><a href="https://www.wisc.edu/" target="_blank">University of Wisconsin</a></li>
+        <li><a href="https://www1.villanova.edu/university.html" target="_blank">Villanova University</a></li>
+        <li><a href="https://www.wlu.edu/" target="_blank">Washington and Lee</a></li>
+        <li><a href="https://www.wellesley.edu/" target="_blank">Wellesley</a></li>
+        <li><a href="https://www.wm.edu/" target="_blank">William and Mary</a></li>
       </ul>
     </div>
   );

@@ -1,6 +1,6 @@
 .CollegeAcceptancesDiv {
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../Images/background3.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("../Images/background3.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,8 @@
 }
 
 .TRCul li, .UBSul li, .CLul li {
-    background-color: rgb(213, 126, 72);
+    background-color: rgba(47, 95, 118);/* Slightly change color on hover */
+
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 6px;
@@ -50,7 +51,7 @@
 .TRCul li:hover, .UBSul li:hover, .CLul li:hover {
     transform: scale(1.05); /* Slightly increase the size on hover */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
-    background-color: rgb(233, 146, 92); /* Slightly change color on hover */
+    background-color: rgb(213, 126, 72);
 }
 
 .TRCul li a, .UBSul li a, .CLul li a {
