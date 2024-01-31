@@ -4,7 +4,7 @@ import "./CollegeAcceptances.css"; // Ensure this path is correct
 const CollegeAcceptances = () => {
   return (
     <div className = "CollegeAcceptancesDiv">
-      
+
       <h1> Past College Acceptances</h1>
 
       <h2>Top Ranked Colleges</h2>
