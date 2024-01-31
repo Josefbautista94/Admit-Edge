@@ -3,7 +3,6 @@ import "./MainPage.css";
 
 const MainPage = () => {
   return (
-    <>
     <div className="mainContainer">
       <header className="titleHeader">
         <h1 className="title">Admit Edge</h1>
@@ -13,15 +12,16 @@ const MainPage = () => {
         </h2>
       </header>
       <a href="#" className="clear-button">About Us</a>
-    </div>
 
-    <div className="review-container">
+      <div className="review-container">
       <div className="reviews">
         <h2 className="reviewTitle">Reviews</h2>
         {/* Reviews content goes here */}
       </div>
     </div>
-  </>
+    </div>
+
+   
 );
 };
 

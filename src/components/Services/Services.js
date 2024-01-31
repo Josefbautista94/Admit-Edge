@@ -10,7 +10,7 @@ const Services = () => {
       <h1 className="title">Services</h1>
       <div className="services-list">
         <div className="service-item">
-        <img src={image1} className = "students1" alt="students studying" />
+        <img src={image1} className = "ser1" alt="students studying" />
         <div className="service-text">
           <h2>Academic Advising</h2>
           <p> 8th grade to 12th grade </p>
@@ -24,7 +24,7 @@ const Services = () => {
 
         </div>
         <div className="service-item">
-        <img src={image2} className = "students1" alt="students studying" />
+        <img src={image2} className = "ser2" alt="students studying" />
 
         <div className="service-text">
 
@@ -46,7 +46,7 @@ const Services = () => {
 
         </div>
         <div className="service-item">
-        <img src={image3} className = "students1" alt="students studying" />
+        <img src={image3} className = "ser3" alt="students studying" />
 
         <div className="service-text">
 
