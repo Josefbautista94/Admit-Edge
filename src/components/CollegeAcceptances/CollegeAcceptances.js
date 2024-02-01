@@ -7,7 +7,11 @@ const CollegeAcceptances = () => {
 
       <h1> Past College Acceptances</h1>
 
+      <section className="acceptances-section">
+
       <h2>Top Ranked Colleges</h2>
+      <div className="acceptance-list TRCul">
+
       <ul className = "TRCul">
       <li><a href="https://www.brown.edu" target="_blank" rel="noopener noreferrer">Brown University</a></li>
       <li><a href="http://www.columbia.edu" target="_blank" rel="noopener noreferrer">Columbia University</a></li>
@@ -33,9 +37,15 @@ const CollegeAcceptances = () => {
         <li><a href="https://www.wfu.edu" target="_blank" rel="noopener noreferrer">Wake Forest</a></li>
         <li><a href="https:/www.wustl.edu" target="_blank" rel="noopener noreferrer">Washington University in St. Louis</a></li>
       </ul>
+      </div>
+      </section>
+
+      <section className="acceptances-section">
 
 
       <h2>Undergraduate Business Schools</h2>
+      <div className="acceptance-list UBSul">
+
       <ul className ="UBSul">
         <li><a href="https://www.babson.edu" target="_blank" rel="noopener noreferrer">Babson College</a></li>
         <li><a href="https://www.bentley.edu" target="_blank" rel="noopener noreferrer">Bentley University</a></li>
@@ -51,10 +61,14 @@ const CollegeAcceptances = () => {
         <li><a href="https://www.herbert.miami.edu/" target="_blank" rel="noopener noreferrer">University of Miami - Herbert School of Business</a></li>
         <li><a href="https://www.wharton.upenn.edu/" target="_blank" rel="noopener noreferrer">UPENN - Wharton School of Business</a></li>
       </ul>
+      </div>
+      </section>
 
 
-      <h2>Complete List</h2>
-      <ul className = "CLul">
+
+      <section className="acceptances-section">
+        <h2>Complete List</h2>
+        <div className="acceptance-list CLul">      <ul className = "CLul">
       <li><a href="https://www.american.edu/"target="_blank">American University</a></li>
       <li><a href="https://www.amherst.edu/"target="_blank">Amherst</a></li>
       <li><a href="https://www.bard.edu/"target="_blank">Bard College</a></li>
@@ -63,7 +77,7 @@ const CollegeAcceptances = () => {
         <li><a href="https://www.bc.edu/"target="_blank">Boston College</a></li>
         <li><a href="https://www.bu.edu/homepage-alt/"target="_blank">Boston University</a></li>
         <li><a href="https://www.brandeis.edu/"target="_blank">Brandeis</a></li>
-        <li><a href="https://www.bucknell.edu/"target="_blank">Bucknel</a>l</li>
+        <li><a href="https://www.bucknell.edu/"target="_blank">Bucknell</a></li>
         <li><a href="https://www.clemson.edu/index.html"target="_blank">Clemson University</a></li>
         <li><a href="https://charleston.edu/"target="_blank">College of Charleston</a></li>
         <li><a href="https://www.colby.edu/"target="_blank">Colby University</a></li>
@@ -122,6 +136,8 @@ const CollegeAcceptances = () => {
         <li><a href="https://www.wellesley.edu/" target="_blank">Wellesley</a></li>
         <li><a href="https://www.wm.edu/" target="_blank">William and Mary</a></li>
       </ul>
+      </div>
+      </section>
     </div>
   );
 };
