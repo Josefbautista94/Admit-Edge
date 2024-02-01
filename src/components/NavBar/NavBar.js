@@ -49,7 +49,7 @@ const NavBar = () => {
           </div>
         </li>
         <li>
-          <a href="#">About</a>
+        <Link to="/About">About</Link>
           <div className="sub-navbar">
             <a href="#">Sub Link 1</a>
             <a href="#">Sub Link 2</a>
@@ -57,7 +57,7 @@ const NavBar = () => {
           </div>
         </li>
         <li>
-          <a href="#">Contact</a>
+        <Link to="/Contact">Contact</Link>
           <div className="sub-navbar">
             <a href="#">Sub Link 1</a>
             <a href="#">Sub Link 2</a>
