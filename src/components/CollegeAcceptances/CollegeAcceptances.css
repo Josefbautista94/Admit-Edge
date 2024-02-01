@@ -9,7 +9,7 @@
     flex-direction: column;
     font-size: calc(10px + 1.5vmin);
     justify-content: center;
-    min-height: 90vh;
+    min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     padding: 2em 0; /* Added padding */
 }
@@ -57,6 +57,7 @@
     transform: translateY(-5px); /* Subtle hover effect */
     background-color: rgba(3, 24, 39); /* Clean White with slight transparency */
     border-left: 9px solid rgb(213, 126, 72); /* Royal Blue border for emphasis */
+    
 
 }
 
@@ -68,4 +69,6 @@
 .TRCul li a:hover, .UBSul li a:hover, .CLul li a:hover {
     color: #FFFFE0;
     text-decoration: underline; /* Added underline on hover for clarity */
+    color: #f0c040;
+    border-bottom-color: #f0c040;
 }

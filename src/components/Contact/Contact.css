@@ -1,14 +1,24 @@
 .contact-container {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
+  align-items: center;
+  background: linear-gradient(rgba(217, 143, 80, 0.7), rgba(27, 65, 162, 0.7)), url("../Images/background1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* This makes the background fixed during scrolling */
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 1.5vmin);
+  justify-content: center;
+  min-height: 90vh;
   }
   
   .contact-title {
-    font-size: 2.5rem;
-    color: #003366; /* Deep Blue */
-    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', serif;
+    padding-top: 10px;
+    font-size: 4rem; /* Slightly larger */
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 6px rgba(21, 40, 103, 0.6);
   }
   
   .contact-form {
