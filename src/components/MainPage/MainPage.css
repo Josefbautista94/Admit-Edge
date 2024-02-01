@@ -15,7 +15,7 @@
 
 .title {
   color: rgb(255, 255, 255);
-  font-family: 'Lato', serif;
+  font-family: 'Merriweather', serif; /* This font has a formal yet modern feel */
   padding-top: 10px;
   font-size: 4rem; /* Slightly larger */
   letter-spacing: 3px;
@@ -67,7 +67,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif; /* This font has a formal yet modern feel */
     margin-top: 20px;
     font-weight: bold;
 
@@ -79,7 +79,7 @@
   }
   
   .reviewTitle {
-    font-family: "Georgia", "Times New Roman", serif; /* A font that carries an academic feel */
+    font-family: 'Merriweather', serif; /* This font has a formal yet modern feel */
     color: #ffffff; /* This is a dark grey, adjust as needed */
     text-align: center; /* Centers the title */
     border-bottom: 2px solid #ffffff; /* A colored line under the title */

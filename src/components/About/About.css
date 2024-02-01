@@ -1,58 +1,69 @@
 .about-container {
     align-items: center;
-    background: linear-gradient(rgba(217, 143, 80, 0.7), rgba(27, 65, 162, 0.7)), url("../Images/background6.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; /* This makes the background fixed during scrolling */
+    background: linear-gradient(rgba(217, 143, 80, 0.7), rgba(27, 65, 162, 0.7)), url("../Images/background5.png");
+ background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  .about-title {
-    color: rgb(255, 255, 255);
-    font-family: 'Lato', serif;
-    padding-top: 10px;
-    font-size: 4rem; /* Slightly larger */
-    letter-spacing: 3px;
-    text-shadow: 2px 2px 6px rgba(21, 40, 103, 0.6);
-  }
-  
-  .about-content {
-    font-size: 1rem;
-    color: #333;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  
-  .about-image {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .about-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .about-content p {
-    font-size: 1.8rem;
-    color: #ffffff;
-    width: 70%;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    padding: 20px 0; /* Added padding */
-    font-weight : bold;
-  }
+    padding: 40px 20px;
+    color: #fff; /* This color may need to change based on your background */
+}
 
-  .GabiIcon {
-    width: 450px; /* Adjust the size as needed */
-    height: 450px; /* Adjust the size as needed */
-    border-radius: 50%; /* Makes the image round */
-    object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
-    border: 3px solid #0055a5; /* Optional: adds a border, choose a color that fits the site's theme */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow for depth */
+.about-title {
+    font-family: 'Merriweather', serif; /* This font has a formal yet modern feel */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #f8f8f8; /* Light color for the title to stand out */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow for text depth */
+}
+
+.about-content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    max-width: 800px; /* Optimal reading width */
+    margin: auto; /* Center content */
+    background-color: rgba(3, 24, 39, 0.8); /* Clean White with slight transparency */
+    padding: 20px;
+    border-radius: 10px; /* Soft rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Consistent with the theme's visual depth */
+    border-left: 5px solid rgb(213, 126, 72); /* Royal Blue border for emphasis */
+
+}
+
+.GabiIcon {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 2rem auto;
+    border: 3px solid rgb(3, 24, 39); /* Primary border color */
+    object-fit: cover;
     display: block;
-    margin: auto; /* Centers the image if in a flex or block container */
+}
+.about-section {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency to differentiate sections */
+    margin-bottom: 20px; /* Space between sections */
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners for each section */
+    position: relative; /* To position any ::before content or icons */
+}
+
+.about-section::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(217, 143, 80); /* Creamy Orange for a decorative bullet */
+    border-radius: 50%;
+}
+
+.about-section:nth-child(odd)::before {
+    background-color: rgb(27, 65, 162); /* Royal Blue for alternate bullet */
+}
+
+.about-section p {
+    text-align: left; /* Align text to the left */
+    margin-left: 30px; /* Make room for the pseudo-element bullet */
 }

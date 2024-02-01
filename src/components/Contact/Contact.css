@@ -14,7 +14,7 @@
   
   .contact-title {
     color: rgb(255, 255, 255);
-    font-family: 'Lato', serif;
+    font-family: 'Merriweather', serif; /* This font has a formal yet modern feel */
     padding-top: 10px;
     font-size: 4rem; /* Slightly larger */
     letter-spacing: 3px;

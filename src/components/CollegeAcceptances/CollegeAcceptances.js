@@ -63,7 +63,7 @@ const CollegeAcceptances = () => {
         <li><a href="https://www.bc.edu/"target="_blank">Boston College</a></li>
         <li><a href="https://www.bu.edu/homepage-alt/"target="_blank">Boston University</a></li>
         <li><a href="https://www.brandeis.edu/"target="_blank">Brandeis</a></li>
-        <li><a href="https://www.bucknell.edu/"target="_blank">Bucknel</a>l</li>
+        <li><a href="https://www.bucknell.edu/"target="_blank">Bucknell</a></li>
         <li><a href="https://www.clemson.edu/index.html"target="_blank">Clemson University</a></li>
         <li><a href="https://charleston.edu/"target="_blank">College of Charleston</a></li>
         <li><a href="https://www.colby.edu/"target="_blank">Colby University</a></li>

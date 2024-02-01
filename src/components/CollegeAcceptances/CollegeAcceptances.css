@@ -41,7 +41,6 @@
 }
 
 .TRCul li, .UBSul li, .CLul li {
-    background-color: #1F6376; /* Updated background color */
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 6px;
@@ -50,12 +49,14 @@
     color: white;
     font-weight: bold;
     transition: all 0.3s ease;
+    background-color: rgba(3, 24, 39); /* Clean White with slight transparency */
+
     
 }
 
 .TRCul li:hover, .UBSul li:hover, .CLul li:hover {
     transform: translateY(-5px); /* Subtle hover effect */
-    background-color: rgba(3, 24, 39); /* Clean White with slight transparency */
+    background-color: #1F6376; /* Updated background color */
     border-left: 9px solid rgb(213, 126, 72); /* Royal Blue border for emphasis */
     
 
