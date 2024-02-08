@@ -49,7 +49,7 @@ const Contact = () => {
         <label htmlFor="message">Message:</label>
         <textarea id="message" name="message" required value={formData.message} onChange={handleChange}></textarea>
 
-        <button type="submit" className="submit-button">Send</button>
+        <button type="submit" className="submit-button">Send :]</button>
       </form>
     </div>
   );
