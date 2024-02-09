@@ -2,12 +2,15 @@ import React from "react";
 import "./CollegeAcceptances.css"; // Ensure this path is correct
 
 const CollegeAcceptances = () => {
+
+  
   return (
+    
     <div className = "CollegeAcceptancesDiv">
 
       <h1> Past College Acceptances</h1>
 
-      <section className="acceptances-section">
+      <section id="top-ranked-colleges" className="acceptances-section">
 
       <h2>Top Ranked Colleges</h2>
       <div className="acceptance-list TRCul">
@@ -40,7 +43,7 @@ const CollegeAcceptances = () => {
       </div>
       </section>
 
-      <section className="acceptances-section">
+      <section id="undergraduate-business-schools" className="acceptances-section">
 
 
       <h2>Undergraduate Business Schools</h2>
@@ -66,7 +69,7 @@ const CollegeAcceptances = () => {
 
 
 
-      <section className="acceptances-section">
+      <section id="complete-list" className="acceptances-section">
         <h2>Complete List</h2>
         <div className="acceptance-list CLul">      <ul className = "CLul">
       <li><a href="https://www.american.edu/"target="_blank">American University</a></li>
