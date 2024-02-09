@@ -10,8 +10,12 @@ body {
     align-items: center;
     background-color: rgb(3, 24, 39); /* Darker blue as preferred */
     color: white;
-    padding: 10px 20px;
-    position: relative;
+   position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000; /* Ensure it stays above other content */
+    
     font-family: 'Georgia', 'Times New Roman', serif;
 }
   
@@ -102,7 +106,7 @@ body {
   .sub-navbar {
     display: none; /* Hide by default */
     position: absolute;
-    top: calc(100% + 37px); /* Place it right below the navbar, plus 10 pixels down */
+    top: calc(100% + 20px); /* Place it right below the navbar, plus 10 pixels down */
     transform: translateX(-50%); /* Align the center of sub-navbar to the center of navbar */
     background-color: rgb(213, 126, 72); /* Orange background color */
     width: 200vw; /* Full width of the viewport */

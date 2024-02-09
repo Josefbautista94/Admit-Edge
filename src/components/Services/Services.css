@@ -9,7 +9,7 @@
     flex-direction: column;
     font-size: calc(10px + 1.5vmin);
     justify-content: center;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .services-list {
@@ -48,15 +48,16 @@
     color: deepskyblue; /* Slightly lighter shade for better visibility */
 }
 
-.title {
+.Stitle {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Merriweather', serif; /* This font has a formal yet modern feel */
-    padding-top: 20px; /* Increased padding */
-    font-size: 4rem; /* Slightly larger font */
-    text-transform: uppercase;
+    font-size: 3em; /* Increased size */
     letter-spacing: 3px; /* Increased letter spacing */
     text-shadow: 3px 3px 6px rgba(21, 40, 103, 0.6); /* More pronounced shadow */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif; /* This font has a formal yet modern feel */
+    padding: .8em 0; /* Added padding */
 }
   
 .service-text {

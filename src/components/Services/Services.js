@@ -7,7 +7,7 @@ import image3 from '../Images/Services5.png'; // Adjust path as necessary
 const Services = () => {
   return (
     <main className="services-section">
-      <h1 className="title">Services</h1>
+      <h1 className="Stitle">Services</h1>
       <div className="services-list">
         <div className="service-item">
         <img src={image1} className = "ser1" alt="students studying" />
