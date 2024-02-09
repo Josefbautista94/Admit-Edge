@@ -7,7 +7,7 @@ import Services from "./components/Services/Services.js";
 import CollegeAcceptances from "./components/CollegeAcceptances/CollegeAcceptances.js";
 import About from "./components/About/About.js";
 import Contact from "./components/Contact/Contact.js";
-import NotFound from './components/NotFound/NotFound.js'; // Import the NotFound component
+import NotFound from './components/NotFound/NotFound.js'; 
 
 
 function App() {

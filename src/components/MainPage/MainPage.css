@@ -13,13 +13,14 @@
 }
 
 
-.title {
+.Mtitle {
   color: rgb(255, 255, 255);
   font-family: 'Merriweather', serif; /* This font has a formal yet modern feel */
-  padding-top: 10px;
-  font-size: 4rem; /* Slightly larger */
+  padding-top:10px;
+  font-size: 3em; /* Increased size */
   letter-spacing: 3px;
   text-shadow: 2px 2px 6px rgba(21, 40, 103, 0.6);
+
 }
 
 .prestige-admissions-consulting {
@@ -35,7 +36,10 @@
 /* If you're using a light background and want a subtle text shadow for depth: */
 
 .titleHeader {
-    top: 30vh; /* Or any other value to push it down from the top */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2em 0; /* Added padding */
     
 }
 .review-container {
