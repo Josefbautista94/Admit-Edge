@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
-
+const axios = require('axios');
 const app = express();
 const port = process.env.PORT || 3001; // Use environment variable or default
 
@@ -50,6 +50,20 @@ app.post('/send-email', (req, res) => {
     }
     res.status(200).send({ message: 'Email successfully sent', info });
   });
+});
+
+app.get('/api/reviews', async (req, res) => {
+  const placeId = "YOUR_PLACE_ID"; // Replace with your place ID
+  const apiKey = process.env.GOOGLE_API_KEY; // Store your API key in .env
+  const url = `https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&fields=reviews&key=${apiKey}`;
+
+  try {
+    const response = await axios.get(url);
+    res.json(response.data.result.reviews);
+  } catch (error) {
+    console.error('Error fetching reviews:', error);
+    res.status(500).send({ message: 'Error fetching reviews', error });
+  }
 });
 
 app.listen(port, () => {
